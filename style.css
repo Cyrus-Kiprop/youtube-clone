@@ -1,0 +1,51 @@
+* {
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+  }
+  #navbar {
+    padding: 0px 16px;
+    height: auto;
+    background: white;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2px 3px #cccccc;
+    /* justify-content: space-between; */
+  }
+  #hamburger-btn {
+    background: transparent;
+    padding: 8px;
+    width: 20px;
+    height: auto;
+    margin: 6px 16px 6px 0px;
+  }
+  .hamburger-dash {
+    height: 2px;
+    background-color: black;
+    margin:5px 0;
+  }
+  #logo {
+    width: 129px;
+    height: 24px;
+  }
+  #search {
+    flex-basis: 1;
+    width: auto;
+    margin: 0px 40px;
+    display: inline-block;
+  }
+  div#search input{
+    width: 575px;
+    height: 26px;
+    padding: 2px 6px;
+  }
+  div#search button{
+    padding: 1px 7px 2px;
+    background: #f8f8f8;
+    width: 65px;
+    height: 32px;
+    font-size: 11px;
+  }
