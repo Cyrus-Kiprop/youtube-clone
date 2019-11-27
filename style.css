@@ -1,5 +1,4 @@
 * {
-  background: white;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: #000000;
@@ -13,7 +12,6 @@
   display: flex;
   align-items: center;
   box-shadow: 0px 2px 3px #cccccc;
-  /* justify-content: space-between; */
 }
 #hamburger-btn {
   background: transparent;
@@ -32,10 +30,10 @@
   height: 24px;
 }
 #search {
-  flex-basis: 1;
-  width: auto;
+  flex: 1;
   margin: 0px 40px;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
 }
 div#search input {
   width: 575px;
@@ -79,4 +77,30 @@ aside {
   flex-direction: column;
   flex: 1 1 auto;
   height: 500px;
+  font-size: 11px;
+  left: -1px;
+  position: relative;
+}
+
+#search svg path, #nav-buttons svg path{
+  fill: #8c8c8c;
+}
+
+#nav-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 225px;
+}
+
+#nav-buttons button {
+  width: 24px;
+  height: 24px;
+  outline: 0;
+  border: 0;
+}
+
+img.avatar {
+  border-radius: 50%;
+  position: relative;
+  top: -5px;
 }
