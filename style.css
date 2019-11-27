@@ -1,6 +1,6 @@
 * {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 18px;
   color: #000000;
   margin: 0px;
   padding: 0px;
@@ -48,41 +48,8 @@ div#search button {
   font-size: 11px;
 }
 
-/* MAIN SECTION STYLING */
-
-main {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 0px 5%;
-}
-section {
-  display: flex;
-  padding: 24px 24px 0 0;
-  flex-direction: column;
-
-  flex: 3 2 0;
-  background: rebeccapurple;
-}
-
-.section__video_player {
-  width: 100%;
-  height: 75vh;
-}
-
-aside {
-  background: lime;
-  padding: 24px 24px 0 0;
-  display: flex;
-  flex-direction: column;
-  flex: 1 1 auto;
-  height: 500px;
-  font-size: 11px;
-  left: -1px;
-  position: relative;
-}
-
-#search svg path, #nav-buttons svg path{
+#search svg path,
+#nav-buttons svg path {
   fill: #8c8c8c;
 }
 
@@ -103,4 +70,92 @@ img.avatar {
   border-radius: 50%;
   position: relative;
   top: -5px;
+}
+
+/* MAIN SECTION STYLING */
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px 5%;
+}
+
+section {
+  display: flex;
+  padding: 24px 24px 0 0;
+  flex-direction: column;
+  flex: 3 2 0;
+  /* background: rebeccapurple; */
+}
+
+.section__video_player {
+  width: 100%;
+  height: 70vh;
+}
+
+.section__video_metadata {
+  padding: 20px 0px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.section__video_metadata h1 {
+  color: #0d0d0d;
+  line-height: 2rem;
+}
+
+.section__video_metadata_views {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section__video_metadata_views_date {
+  align-self: center;
+}
+
+.section__video_metadata_views_date span {
+  font-size: 0.9rem;
+  color: #606060;
+}
+
+
+.section__video_social {
+  display: flex;
+  flex-direction: row;
+}
+
+.section__video_social_item {
+  display: flex;
+  flex-direction: row;
+  width: 59px;
+  height: 20px;
+  align-items: center;
+  padding-right: 8px;
+}
+
+.section__video_social_item span{
+  font-size: 0.8rem;
+  color: #606060;
+}
+
+.social__bottom_bar {
+  border-bottom: 2px solid #ccc;
+  display: flex;
+}
+
+.video__item_icon path{
+  fill: #606060;
+}
+
+aside {
+  background: lime;
+  padding: 24px 24px 0 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  height: 500px;
+  font-size: 11px;
+  left: -1px;
+  position: relative;
 }
