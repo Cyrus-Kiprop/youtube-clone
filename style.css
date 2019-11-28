@@ -1,5 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 * {
-  font-family: "Roboto", Arial, sans-serif;
+
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: #000000;
   margin: 0px;
@@ -119,7 +123,6 @@ section {
   color: #606060;
 }
 
-
 .section__video_social {
   display: flex;
   flex-direction: row;
@@ -134,7 +137,7 @@ section {
   padding-right: 8px;
 }
 
-.section__video_social_item span{
+.section__video_social_item span {
   font-size: 0.8rem;
   color: #606060;
 }
@@ -144,8 +147,95 @@ section {
   display: flex;
 }
 
-.video__item_icon path{
+.video__item_icon path {
   fill: #606060;
+}
+
+/* VIDEO DESCRIPTION SECTION */
+.video__secondary_info {
+border-bottom: 0.5px solid #C0C0C0;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 16px;
+  margin: 0 0 24px;
+}
+
+.video__secondary_top-row {
+  margin: 0 0 12px;
+  padding: 16px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.video__secondary_top-row > img {
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.video__secondary_upload-info {
+  display: flex;
+  flex-direction: column;
+ 
+  flex: 1 0 auto;
+}
+
+.video__secondary_top-row > button {
+  padding: 10px 16px;
+  margin: 0 4px;
+  text-transform: uppercase;
+  background-color: #cc0000;
+
+  border: none;
+ 
+  outline: none;
+  box-shadow: none;
+  border-radius: 2px;
+  color: white;
+}
+.video__secondary_upload-info > a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #0d0d0d;
+}
+
+.video__secondary_upload-info > span {
+  font-size: 13px;
+
+  color: #606060;
+}
+
+.video__secondary_description  {
+  margin-left: 64px;
+  font-size: 14px;
+  line-height: 1rem;
+  color: #000000
+}
+
+.video__secondary_description p{
+
+ line-height: 1.2rem;
+  font-size: 14px;
+ 
+}
+
+.video__secondary_description >p a{
+
+  text-decoration: none;
+  font-size: 14px;
+ 
+}
+
+.video__secondary_description button{
+
+  border: none;
+  outline: none;
+  background: none;
+  box-shadow: none;
+  font-size: 13px;
+  color: rgb(17, 17, 17,0.6);
+  margin-top: 8px;
+ 
 }
 
 aside {
