@@ -7,7 +7,8 @@
   margin: 0px;
   padding: 0px;
 }
-#navbar {
+
+nav.navbar {
   padding: 0px 16px;
   height: auto;
   background: white;
@@ -15,7 +16,7 @@
   align-items: center;
   box-shadow: 0px 2px 3px #cccccc;
 }
-#hamburger-btn {
+.hamburger-btn {
   background: transparent;
   padding: 8px;
   /* flex: 1; */
@@ -28,19 +29,19 @@
   background-color: black;
   margin: 5px 0;
 }
-#logo {
+.logo {
   width: 129px;
   height: 24px;
   margin-right: auto;
 }
-#search {
+.search {
   border: 1px solid #c0c0c0;
   margin: 0px 40px;
   border-radius: 2px;
   display: flex;
   justify-content: center;
 }
-div#search input {
+.search input {
   border: none;
   outline: none;
   font-size: 16px;
@@ -48,7 +49,7 @@ div#search input {
   height: 26px;
   padding: 2px 6px;
 }
-div#search button {
+.search button {
   padding: 1px 7px 2px;
   border: none;
   background: #f0f0f0;
@@ -58,12 +59,12 @@ div#search button {
   font-size: 11px;
 }
 
-#search svg path,
-#nav-buttons svg path {
+.search svg path,
+.nav-buttons svg path {
   fill: #8c8c8c;
 }
 
-#nav-buttons {
+.nav-buttons {
   /* flex: 1; */
   margin-left: auto;
   display: flex;
@@ -71,11 +72,12 @@ div#search button {
   min-width: 225px;
 }
 
-#nav-buttons button {
+.nav-buttons button {
   width: 24px;
   height: 24px;
   outline: 0;
   border: 0;
+  background: none;
 }
 
 img.avatar {
