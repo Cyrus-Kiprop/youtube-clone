@@ -18,6 +18,7 @@
 #hamburger-btn {
   background: transparent;
   padding: 8px;
+  /* flex: 1; */
   width: 20px;
   height: auto;
   margin: 6px 16px 6px 0px;
@@ -30,21 +31,28 @@
 #logo {
   width: 129px;
   height: 24px;
+  margin-right: auto;
 }
 #search {
-  flex: 1;
+  border: 1px solid #c0c0c0;
   margin: 0px 40px;
+  border-radius: 2px;
   display: flex;
   justify-content: center;
 }
 div#search input {
+  border: none;
+  outline: none;
+  font-size: 16px;
   width: 575px;
   height: 26px;
   padding: 2px 6px;
 }
 div#search button {
   padding: 1px 7px 2px;
-  background: #f8f8f8;
+  border: none;
+  background: #f0f0f0;
+  border-left: 1px solid #c0c0c0;
   width: 65px;
   height: 32px;
   font-size: 11px;
@@ -56,6 +64,8 @@ div#search button {
 }
 
 #nav-buttons {
+  /* flex: 1; */
+  margin-left: auto;
   display: flex;
   justify-content: space-evenly;
   min-width: 225px;
@@ -383,15 +393,17 @@ aside {
   flex: 1 0 auto;
 }
 
-.video--recommendation-list-item {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 12px;
+li:first-child {
+  /* border: 1px solid black; */
   border-bottom: 1px solid #c0c0c0;
-  margin-bottom: 16px;
 }
 
-.video--recommendation-list-item > img {
+.video--recommendation-list-item {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  margin-bottom: 16px;
 }
 
 .video--recommendation-thumbnail-description {
